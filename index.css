@@ -1,0 +1,186 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: SFDisplay;
+}
+h1{
+    font-size: 48px;
+    color: darkgoldenrod;
+}
+h2{
+    color: darkgoldenrod;
+    font-size: 30px;
+}
+h3{
+    color: red;
+    font-size: 30px;
+    text-align: center;
+}
+@font-face {
+    font-family: SFDisplay;
+    src: url(SFProDisplay-Black.woff);
+}
+
+.topMenu{
+    position: sticky;
+    top: 0;
+    display: flex;
+    padding-left: 150px;
+    border-bottom: 1px solid #B9B4A7;
+    border-top: 1px solid #B9B4A7;
+    box-shadow: 3px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    z-index: 5;
+    background-color: white;
+}
+.razmetkaFlex{
+    display: flex;
+}
+.logo{
+    padding-top: 10px;
+    padding-left: 15px;
+    display: flex;
+    font-family: Flix;
+    position: absolute;
+    left: 580px;
+    font-size: 40px;
+    text-shadow: 2px 2px 2px #363636;
+}
+.knopka{
+    padding: 10px 10px 0 10px;
+    font-family: SFDisplay;
+    font-size: 30px;
+    border-left: 4px double black;
+    text-align: center;
+    height: 70px;
+    text-shadow: 1px 1px 2px #363636;
+    background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+
+}
+.mr{
+    margin-left: 300px;
+    border-right: 4px double black;
+}
+.mb{
+    border-right: 4px double black;
+    width: 220px;
+}
+#fl{
+    margin-left: 10px;
+}
+.firstRed::first-letter{
+    color: red;
+}
+
+.knopka:hover{
+    background: linear-gradient(to top, #fefcea, #B4CBFD);
+    cursor: pointer;
+    color: darkgoldenrod;
+
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.me{
+    display: flex;
+    border-bottom: 1px solid #B9B4A7;
+    box-shadow: 3px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.slideMe{
+    height: 400px;
+    margin:5px 0 5px 70px;
+}
+.text{
+    width: 44%;
+    margin-left: 70px;
+}
+td{
+    padding-right: 70px;
+    padding-bottom: 10px;
+}
+.education{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #B9B4A7;
+    box-shadow: 3px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.mirea{
+    display: flex;
+    flex-direction: row;
+    border-bottom-style: dotted;
+    border-color: red;
+}
+#rtu{
+    height: 300px;
+    margin: 30px 0 5px 130px;
+}
+
+.dopText{
+    margin-left: 70px;
+    width: 30%;
+}
+.coursera{
+    height: 300px;
+    width: 300px;
+}
+.ser{
+    width: 370px;
+}
+.courseraSer{
+    display: flex;
+    margin: 0 70px;
+    flex-wrap: wrap;
+}
+#otstup1{
+    margin-left: 250px;
+}
+.target{
+    position: relative;
+    bottom: 70px;
+}
+.imgPortfolio{
+    margin: 0 0 5px 70px;
+    height: 300px;
+}
+.portfolio{
+    border-bottom: 1px solid #B9B4A7;
+    box-shadow: 3px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.portfolioText{
+    margin: -5px 0 0 50px;
+    width: 40%;
+}
+footer{
+    text-align: right;
+    margin: 5px 30px;
+    color: red;
+    font-size: 20px;
+}
+b{
+    color: red;
+}
+.ma{
+    width: 150px;
+}
+.social a {
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    float: left;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    border-radius: 24px;
+    margin: 0 10px 10px 0;
+    padding: 6px;
+    color: #000;
+}
+.github a:hover {background: #191919; color: #fff;}
+.vk a:hover {background: #5d84ae; color: #fff;}
+.facebook a:hover {background: #3b5998; color: #fff;}
+.instagram a:hover {background: #eb1547; color: #fff;}
+.telegram a:hover {background: #249bd7; color: #fff;}
+strong{
+    color: red;
+}
